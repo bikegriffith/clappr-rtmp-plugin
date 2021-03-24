@@ -29,7 +29,7 @@
     "lock": "rm -rf npm-shrinkwrap.json node_modules && npm install --silent && npm shrinkwrap"
   },
   "dependencies": {
-    "clappr": "latest"
+    "@clappr/core": "^0.4.17"
   },
   "devDependencies": {
     "babel-core": "^5.8.25",
@@ -38,7 +38,7 @@
     "html-loader": "^0.5.5",
     "mocha": "^2.3.2",
     "mocha-loader": "^0.7.1",
-    "node-sass": "^3.3.3",
+    "node-sass": "^5.0.0",
     "raw-loader": "^0.5.1",
     "sass-loader": "^3.1.1",
     "style-loader": "^0.12.4",
